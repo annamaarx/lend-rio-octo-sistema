@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: turquoise;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    font-weight: bold;
+    height: 7px;
+    background: white;
+    margin-bottom: 10px;
+
+}
+
+.game {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.game button {
+    width: 130px;
+    height: 130px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    background: white;
+
+
+}
+
+.game button:hover {
+    background-color: turquoise;
+}
+
+.game button:active {
+    border: 2px solid pink;
+}
+
+.game button {
+    font-size: 5rem;
+}
